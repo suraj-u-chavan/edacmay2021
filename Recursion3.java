@@ -1,0 +1,15 @@
+public class Recursion3 {
+public static void series(int i) {
+    if (i < 5) {
+      return;
+    }
+    System.out.println(i);
+    i = i - 1;
+    series(i);
+  }
+
+  public static void main(String[] args) {
+    series(20);
+  }
+  
+  }
