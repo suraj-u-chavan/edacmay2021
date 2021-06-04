@@ -1,4 +1,4 @@
-
+Series of numbers
 public class Recursion3 {
 public static void series(int i) {
     if (i < 5) {
